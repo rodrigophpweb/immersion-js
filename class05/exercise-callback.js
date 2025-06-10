@@ -1,7 +1,7 @@
 // Create a function that receives another function as a parameter and executes it.
 
-function whatNameMyWife(){
-	whatName(firstName);
+function whatNameMyWife(whatName){
+	whatName('Tatiana');
 }
 
 function whatName(firstName){
